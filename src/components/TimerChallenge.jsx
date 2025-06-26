@@ -26,8 +26,7 @@ export default function TimerChallenge({ title, targetTime }) {
       <p>
         <button onClick={handleStart}>
           {timerStarted ? 'Stop' : 'Start'} Challenge
-        </button> 
-       
+        </button>
       </p>
       <p className={timerStarted ? 'active' : undefined}>
         {timerStarted ? 'Time is running...' : 'Timer inactive'}
